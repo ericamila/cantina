@@ -1,0 +1,103 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: sans-serif, Helvetica, Arial;
+	text-decoration: none;
+}
+
+p, button {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+h4{
+	color: #191970;
+	font-size:1.2rem;
+	padding: 15px;
+	margin-top: 20px;;
+}
+
+main{
+    max-width: 900px;
+    align-content: center;
+	background-color: #F5F5DC;
+}
+
+main img{
+	border-radius: 15px;
+	border:solid 1px;
+    box-shadow: 5px 5px 5px 2px #A9A9A9;
+}
+
+header{
+    background-color: #BDB76B;
+    color: #FFFAFA;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+footer{
+    background-color: #BDB76B;
+    color: #FFFAFA;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+article{
+	float:left;
+	width:600px;
+}
+
+article p {
+	text-indent: 3ch;
+	text-align: justify;
+	margin-bottom: 1em; 
+}
+
+nav{
+	background-color: #8B4513;
+	padding:10px;
+
+}
+
+nav a{
+	padding-left:20px;
+	color: white;
+	padding:10px;
+}
+
+nav a:hover{
+	background: #A0522D;
+}
+
+.home{
+	width: 280px;
+	float:left;
+	border: 1px solid #8B4513;
+	padding: 5px;
+	margin-left:5px;
+}
+.produtos{
+	width: 280px;
+	float:left;
+	border: 1px solid #8B4513;
+	padding: 5px;
+	margin: 0 0 5px 5px;
+}
+
+li {
+	font-family: 'Courier New', sans-serif;
+	padding: 5px;
+	list-style-type: none;
+}
+
+div a {
+	float:right;
+	padding:10px;
+	margin:3px;
+	background-color: #A52A2A;
+	border-radius: 15px;
+	color: white;
+}
